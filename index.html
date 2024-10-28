@@ -3,120 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Builder - Create Your Professional Resume</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <!-- <link rel="stylesheet" href="./src/"> -->
+    <title>Resume</title>
+    <link rel="stylesheet" href="../styles/resume.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="header-resume">
-        <h1>WELCOME TO OUR RESUME BUILDER</h1>
-        <h4>Welcome! You can easily create your professional resume by filling out the form below. Start by entering your personal information, and let us handle the rest!</h4>
-    </header>
     <main>
-        <section>
-            <form action="" class="resume-form">
-                <div class="form-row-1">
-                   <div class="form-1">
-                    <label for="">Full Name:</label>
-                    <input type="text" name="" id="username" placeholder="Enter Your Name">
-                    <p></p>
-                   </div>
-                    <div class="form-1">
-                        <label for="">Email:</label>
-                        <input type="text" name="" id="useremail" placeholder="Enter Your Email">
-                        <p></p>
+       
+        <section class="cv" id="cv-container">
+            <!-- Button For Edit and Download -->
+            <!-- <div class="edit-download">
+                <button class="editbtn">Edit CV</button>
+                <button class="downladPdf">Download CV</button>
+                <button class="generate-url">Generate URl</button>
+            </div> -->
+            <!-- Our Resume -->
+        <section id="resume-parent" >
+            <section class="resume" id="resum">
+                <div class="user-img-name">
+                    <div class="usr-img">
+                        <img src="./images/download.jpg" alt="resume-image">
+                    </div>
+                    <div class="user-name">
+                        <h1 >Abdul Moiz</h1>
+                        <h2>Front-End-Developer</h2>
                     </div>
                 </div>
-                <div class="form-row-2">
-                    <div class="form-1">
-                     <label for="">Phone Number:</label>
-                     <input type="text" name="" id="usernumber" placeholder="Enter Your Number">
-                     <p></p>
-                    </div>
-                     <div class="form-1">
-                         <label for="">Job Title:</label>
-                         <input type="text" name="" id="userjob" placeholder="Enter Your Job Title">
-                         <p></p>
-                     </div>
-                 </div>
-                 <div class="form-row-3">
-                    
-                    <div class="form-1 education">
-                        <label for="">Your Education :</label>
-                        <input type="text" name="" id="schoolname" placeholder="Enter Your School Name">
-                        <p></p>
-                        <input type="text" name="" id="schoolperiod" placeholder="Enter Your School Period">
-                        <p></p>
-                        <input type="text" name="" id="collegename" placeholder="Enter Your College Name">
-                        <p></p>
-                        <input type="text" name="" id="collegeperiod" placeholder="Enter Your College Period">
-                        <p></p>
-                        <input type="text" name="" id="university" placeholder="Enter Your University Name">
-                        <p></p>
-                        <input type="text" name="" id="universitysub" placeholder="Enter Your University Subject">
-                        <p></p>
-                        <input type="text" name="" id="universityperiod" placeholder="Enter Your University Period">
-                        <p></p>
-                    </div>
-                     <div class="form-1 work">
-                         <label for="">Work Experience :</label>
-                         <input type="text" name="" id="job" placeholder="Enter Your Last Job">
-                         <p></p>
-                         <input type="text" name="" id="company" placeholder="Enter Your Last Company">
-                         <p></p>
-                         <input type="text" name="" id="period" placeholder="Enter Your Employment Period">
-                         <p></p>
-                         <textarea name="" id="work-experience" rows="11" placeholder="Enter Your Work Experience"></textarea>
-                         <p></p>
-                     </div>
-                 </div>
-                 <div class="form-row-4">
-
-                     <div class="form-1">
-                         <label for="">Your Skill:</label>
-                         <input type="text" name="" id="skill" placeholder="Enter Your Skill Seprated by One Space">
-                         <p></p>
-                        </div>
-                        <div class="form-1">
-                            <label for="">Your Language :</label>
-                            <input type="text" name="" id="language" placeholder="Enter Your Language Seprated by One Space">
-                            <p></p>
+                <div class="contect-about">
+                    <div class="contact">
+                        <h3>CONTACT</h3>
+                        <div class="cont-info">
+                            <p><i class="fa-solid fa-phone"></i> 12345678912</p>
+                            <p><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+                            <p><i class="fa-brands fa-firefox"></i> https://silentshaikh.github.io/OurPortfolio/</p>
+                            <p><i class="fa-solid fa-location-pin"></i>Karachi Pakistan</p>
                         </div>
                     </div>
-                    <div class="form-row-5">
-
-                      <div class="form-double">
-                        <div class="form-1 contact">
-                            <label for="">Your Contect Details:</label>
-                            <input type="text" name="" id="address" placeholder="Enter Your Address">
-                            <p></p>
-                            <input type="text" name="" id="portfolio" placeholder="Enter Your Portfolio Link">
-                            <p></p>
-                           </div>
-                           <div class="form-1 contact">
-                            <label for="">Your Picture:</label>
-                            <input type="file" name="" id="picture" accept=".jpg,.jpeg,.webp,.png">
-                            <p></p>
+                    <div class="about">
+                        <h3>ABOUT ME</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, inventore ducimus sapiente, dignissimos in aspernatur saepe excepturi vero sed distinctio ut totam veritatis delectus cumque velit, iure aut eum quasi.</p>
+                    </div>
+                </div>
+                <div class="education-experience">
+                    <div class="education">
+                        <h3>education</h3>
+                        <div class="educ">
+                            <div class="educ-1">
+                                <h4>S-M University</h4>
+                                <h5>Bsc in Computer Science</h5>
+                                <h6>2025-2025</h6>
+                            </div>
+                            <div class="educ-1">
+                                <h4>SM Govt Sci College</h4>
+                                <h6>2021-2024</h6>
+                            </div>
+                            <div class="educ-1">
+                                <h4>CMS Govt Higher Secondary School</h4>
+                                <h6>2019-2021</h6>
+                            </div>
                         </div>
-                      </div>
-                           <div class="form-1">
-                            <label for="">Your Profile:</label>
-                               <textarea name="" id="profile" rows="13" placeholder="Enter Your Profile"></textarea>
-                               <p></p>
-                           </div>
-                       </div>
-
-                       <button class="resume-btn">Submit</button>
-                 
-              
-            </form>
+                    </div>
+                    <div class="work-experience">
+                        <h3>work experience</h3>
+                        <div class="work">
+                            <h4>Font-End-Developer</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde qui non quos sed tenetur nemo, quasi similique eveniet. Consequuntur, ut qui? Beatae, reprehenderit cumque! Omnis debitis earum nihil laborum totam?</p>
+                            <h5>Devsinc</h5>
+                            <h6>2025-2025</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-language">
+                    <div class="language">
+                        <h3>LANGUAGE</h3>
+                        <ul>
+                           <li>Urdu</li>
+                           <li>English</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3>SKILL</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Typescript</li>
+                            <li>Nextjs</li>
+                            <li>Tailwind Css</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </section>
-    
+        </section>
     </main>
-
-
+  
 </body>
 </html>
