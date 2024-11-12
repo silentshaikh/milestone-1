@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+}
+.resume-section{
+    background-color: #e4e5e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.resume{
+    background-color: #ffff;
+    border-radius: 5px; 
+}
+.resume-head{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid  #b2bec3;
+}
+.name-jobtitle{
+}
+.name-jobtitle h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    /* font-family: "Anton", sans-serif; */
+     font-family: "New Amsterdam", serif;
+     /* font-family: "Anton SC", sans-serif; */
+    /* letter-spacing: 3px; */
+    font-weight: bold;
+}
+.name-jobtitle h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    /* font-family: "Anton", sans-serif; */
+     font-family: "New Amsterdam", serif;
+     /* font-family: "Anton SC", sans-serif; */
+    /* letter-spacing: 3px; */
+    font-weight: bold;
+}
+.profile-img img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #b2bec3;
+    padding: 5px;
+}
+.resume-body{
+    /* padding-top: 15px; */
+    display: flex;
+}
+/* left */
+.resume-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    width: 330px;
+    padding-bottom: 30px;
+}
+.personal{
+    width: 250px;
+}
+.personal h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton", sans-serif; */
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+    color: #292929;
+}
+.pers-box{
+    border-bottom: 1px solid #b2bec3;
+    padding-top: 5px;
+}
+.pers-box h4{
+    font-weight: bold;
+}
+.pers-box p{
+    color: #818283;
+    font-size: 15px;
+}
+.contact{
+    width: 250px;
+    padding-top: 30px;
+}
+.contact h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+    color: #292929;
+}
+.contct-box{
+    border-bottom: 1px solid #b2bec3;
+    padding-top: 5px;
+}
+.contct-box h4{
+    font-weight: bold;
+}
+.contct-box p{
+    color: #818283;
+    font-size: 15px;
+}
+.skills{
+    width: 250px;
+    padding-top:30px;
+}
+.skills h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+    color: #292929;
+}
+.skill-list{
+    padding-top:10px ;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #818283;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* right */
+.resume-right{
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #b2bec3;
+    padding: 10px 20px ;
+    padding-bottom: 30px;
+}
+.profile{
+    padding-left: 40px;
+}
+.profile h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+}
+.profile p{
+    width: 500px;
+    padding: 15px 0;
+    font-size: 15px;
+    color: #818283;
+}
+.experience{
+    padding-left: 40px;
+    /* padding-top: 20px; */
+}
+.experience h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+}
+.work-list{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.work-box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.work-img{
+    position: relative;
+}
+.work-img img{
+    width: 70px;
+}
+.work-img p{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 700;
+    color: white;
+    /* font-weight: 300; */
+    
+}
+.company-job h4{
+    font-weight: bold;
+}
+.company-job p{
+    color: #818283;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.work-list h4{
+    text-transform: uppercase;
+}
+.education-list h4{
+    text-transform: uppercase;
+}
+.education{
+    padding-left: 40px;
+    padding-top: 30PX;
+}
+.education h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+}
+.education-list{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.education-box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.education-img{
+    position: relative;
+}
+.education-img img{
+    width: 70px;
+}
+.education-img p{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 700;
+    color: white;
+    /* font-weight: 300; */
+    
+}
+.school-college h4{
+    font-weight: bold;
+}
+.school-college p{
+    color: #818283;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.language{
+    /* width: 250px; */
+    padding-left: 40px;
+    padding-top:30px;
+}
+.language h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 2px solid #b2bec3;
+    /* font-family: "Anton SC", sans-serif; */
+     font-family: "New Amsterdam", serif;
+    color: #292929;
+}
+.language-list{
+    padding-top:10px ;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #818283;
+    font-size: 15px;
+    text-transform: uppercase;
+}
