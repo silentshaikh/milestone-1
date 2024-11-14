@@ -5,8 +5,10 @@
     font-family: "Poppins", serif;
   font-weight: 400;
 }
-.resume-section{
+body{
     background-color: #e4e5e6;
+}
+.resume-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,6 +160,8 @@
     padding: 15px 0;
     font-size: 15px;
     color: #818283;
+    word-wrap: break-word; 
+  white-space: pre-wrap;
 }
 .experience{
     padding-left: 40px;
@@ -190,11 +194,11 @@
 }
 .work-img p{
     position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-weight: 700;
-    color: white;
-    /* font-weight: 300; */
+    bottom: 15px;
+    left: 10px;
+    /* font-weight: 700; */
+    color: white;    
+    font-size: 9px;
     
 }
 .company-job h4{
@@ -242,10 +246,11 @@
 }
 .education-img p{
     position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-weight: 700;
+    bottom: 15px;
+    left: 10px;
+    /* font-weight: 700; */
     color: white;    
+    font-size: 9px;
 }
 .school-college h4{
     font-weight: bold;
